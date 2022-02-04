@@ -70,6 +70,7 @@ function App() {
         type={type}
         id={`default-${type}`}
         label={'A. NO CHANGE'}
+        name={"myGroupName"}
 className='mb-2'
 
       />
@@ -77,18 +78,21 @@ className='mb-2'
         type={type}
         id={`default-${type}`}
         label={'B. This is answer B. '}
+        name={"myGroupName"}
         className='mb-2'
       />
             <Form.Check 
         type={type}
         id={`default-${type}`}
         label={'C. This is answer C. '}
+        name={"myGroupName"}
         className='mb-2'
       />
             <Form.Check 
         type={type}
         id={`default-${type}`}
         label={'D. This is answer D.  '}
+        name={"myGroupName"}
         className='mb-2'
       />
 
