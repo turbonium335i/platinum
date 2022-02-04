@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar, Form, Nav, Container, Row, Col, ProgressBar, Table, Alert, Button } from 'react-bootstrap'
 import React, { useState, useEffect } from 'react'
 import { BsFillPencilFill } from "react-icons/bs";
+import Footer from "./Footer.jsx"
 
  
 
@@ -43,13 +44,13 @@ function App() {
   </Container>
 
 </Navbar>
-<Container >
+<Container className='mx-3' >
 
-<Container>
+<>
   <br/>
-  <div className='fw-bold mb-1 '>PASSAGE I</div>
+  <div className='fw-bold mb-1 mx-0'>PASSAGE I</div>
   <Row>
-    <div className='col-sm-6 scrolly border-end border-danger'>
+    <div className='col-sm-8 scrolly border-end border-danger'>
     In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available.
     In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available.
     In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available.
@@ -60,7 +61,7 @@ function App() {
     In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available.
 
     </div>
-    <div className='col-sm-6 scrolly mt-5 mt-md-0  ps-5'>
+    <div className='col-sm-4 scrolly mt-5 mt-md-0  ps-5'>
 
     <Form>
   {['radio'].map((type) => (
@@ -100,7 +101,7 @@ className='mb-2'
     </div>
   </Row>
  
-</Container>
+</>
  
 
 
@@ -109,12 +110,16 @@ className='mb-2'
 
 
 
-<Navbar expand="lg" variant="light" bg="light" fixed="bottom"  >
-  <Container className='ms-2 d-flex justify-content-start'>
+<Navbar expand="lg" variant="light" bg="light"  className='mb-3' >
+  <Container className='ms-2 d-inline'>
  
   <But n={5} />
   </Container>
-</Navbar>
+ </Navbar>
+
+<Footer/>
+
+ 
     </div>
   );
 }
