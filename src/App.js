@@ -24,7 +24,7 @@ function App() {
     <div className="App">      
 <Navbar  expand="md"   style={{backgroundColor:'#001733'}}   variant="dark">
   <Container className='ms-2'>
-    <Navbar.Brand href="#home"  className='text-secondary fw-bold'>Platinum ACT</Navbar.Brand>
+    <Navbar.Brand href="#home"  className='text-secondary fw-bold'>Platinum SAT</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">
@@ -75,19 +75,19 @@ className='mb-2'
             <Form.Check 
         type={type}
         id={`default-${type}`}
-        label={'B. used as a placeholder before '}
+        label={'B. This is answer B. '}
         className='mb-2'
       />
             <Form.Check 
         type={type}
         id={`default-${type}`}
-        label={'C. used as a placeholder before '}
+        label={'C. This is answer C. '}
         className='mb-2'
       />
             <Form.Check 
         type={type}
         id={`default-${type}`}
-        label={'D. used as a placeholder before '}
+        label={'D. This is answer D.  '}
         className='mb-2'
       />
 
@@ -120,5 +120,5 @@ className='mb-2'
 }
 
 export default App;
-document.body.style = 'background: silver;';
+document.body.style = 'background: #F5F5F5;';
  
