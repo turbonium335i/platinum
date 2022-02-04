@@ -60,7 +60,7 @@ function App() {
     In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available.
 
     </div>
-    <div className='col-sm-6 scrolly ps-5'>
+    <div className='col-sm-6 mt-5 mt-md-0  ps-5'>
 
     <Form>
   {['radio'].map((type) => (
