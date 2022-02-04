@@ -24,7 +24,7 @@ function App() {
     <div className="App">      
 <Navbar  expand="md"   style={{backgroundColor:'#001733'}}   variant="dark">
   <Container className='ms-2'>
-    <Navbar.Brand href="#home"  className='text-secondary fw-bold'>Platinum SAT</Navbar.Brand>
+    <Navbar.Brand href="#home"  className='text-secondary fw-bold'>ACADEMY CBT SAT</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">
