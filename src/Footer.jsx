@@ -5,7 +5,7 @@ const Footer = () => (
         <div className="col mt-md-0 mt-3">
           <p>
             Copyright © 2022 &nbsp;
-            <a href={"https://evolution3w.com"}>
+            <a href={"http://evolution3w.com"}>
               Developed and Managed by www.evolution3w.com
             </a>
           </p>
