@@ -119,12 +119,18 @@ function App() {
                 width="100%"
                 height="100%"
               ></embed> */}
-
+              {/* 
               <object
                 width="100%"
                 height="100%"
                 data="https://satsuite.collegeboard.org/media/pdf/sat-practice-test-1.pdf"
-              ></object>
+              ></object> */}
+
+              <iframe
+                src="https://drive.google.com/file/d/0B9DGiDuWjuhQS2NXNGdSTlI2Qzg/preview?resourcekey=0-2x7crhGf-vMlItlDQwYLmQ"
+                width="100%"
+                height="100%"
+              ></iframe>
             </div>
 
             {/* <div className="col-sm-8 scrolly border-end border-danger">
