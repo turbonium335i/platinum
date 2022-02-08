@@ -9,6 +9,7 @@ const Footer = () => (
               Developed and Managed by www.evolution3w.com
             </a>
           </p>
+          <br />
         </div>
 
         <hr className="clearfix w-100 d-md-none pb-0" />

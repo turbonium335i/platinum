@@ -106,7 +106,7 @@ function App() {
             <span className="text-dark">
               <BsFillAlarmFill /> Remaining &nbsp;
             </span>
-            <Countdown date={Date.now() + 611000} renderer={renderer} />
+            <Countdown date={Date.now() + 3610000} renderer={renderer} />
           </div>
 
           <div className="fw-bold mb-1 mx-0">PASSAGE I</div>
