@@ -110,8 +110,18 @@ function App() {
           </div>
 
           <div className="fw-bold mb-1 mx-0">PASSAGE I</div>
+
           <Row>
             <div className="col-sm-8 scrolly border-end border-danger">
+              <embed
+                src="https://satsuite.collegeboard.org/media/pdf/sat-practice-test-1.pdf"
+                type="application/pdf"
+                width="100%"
+                height="100%"
+              ></embed>
+            </div>
+
+            {/* <div className="col-sm-8 scrolly border-end border-danger">
               In publishing and graphic design, Lorem ipsum is a placeholder
               text commonly used to demonstrate the visual form of a document or
               a typeface without relying on meaningful content. Lorem ipsum may
@@ -144,7 +154,7 @@ function App() {
               commonly used to demonstrate the visual form of a document or a
               typeface without relying on meaningful content. Lorem ipsum may be
               used as a placeholder before the final copy is available.
-            </div>
+            </div> */}
             <div className="col-sm-4 scrolly mt-5 mt-md-0  ps-5">
               <Form>
                 {["radio"].map((type) => (
