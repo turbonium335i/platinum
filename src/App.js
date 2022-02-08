@@ -112,7 +112,7 @@ function App() {
           <div className="fw-bold mb-1 mx-0">PASSAGE I</div>
 
           <Row>
-            <div className="col-sm-8 scrolly border-end border-danger">
+            <div className="col-sm-9 scrolly border-end border-danger">
               {/* <embed
                 src="https://satsuite.collegeboard.org/media/pdf/sat-practice-test-1.pdf"
                 type="application/pdf"
@@ -167,7 +167,7 @@ function App() {
               typeface without relying on meaningful content. Lorem ipsum may be
               used as a placeholder before the final copy is available.
             </div> */}
-            <div className="col-sm-4 scrolly mt-5 mt-md-0  ps-5">
+            <div className="col-sm-3 scrolly mt-5 mt-md-0  ps-5">
               <Form>
                 {["radio"].map((type) => (
                   <div key={`default-${type}`} className="mb-3">
