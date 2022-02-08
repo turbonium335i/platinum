@@ -101,7 +101,7 @@ function App() {
       </Navbar>
       <Container className="mx-3">
         <>
-          <div class="d-flex justify-content-end text-danger pe-4">
+          <div className="d-flex justify-content-end text-danger pe-4">
             {" "}
             <span className="text-dark">
               <BsFillAlarmFill /> Remaining &nbsp;
@@ -113,12 +113,18 @@ function App() {
 
           <Row>
             <div className="col-sm-8 scrolly border-end border-danger">
-              <embed
+              {/* <embed
                 src="https://satsuite.collegeboard.org/media/pdf/sat-practice-test-1.pdf"
                 type="application/pdf"
                 width="100%"
                 height="100%"
-              ></embed>
+              ></embed> */}
+
+              <object
+                width="100%"
+                height="100%"
+                data="https://satsuite.collegeboard.org/media/pdf/sat-practice-test-1.pdf"
+              ></object>
             </div>
 
             {/* <div className="col-sm-8 scrolly border-end border-danger">
