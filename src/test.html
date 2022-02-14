@@ -261,8 +261,8 @@
                 clickedBtn.classList.remove("btn-outline-dark", "btn-warning");
                 clickedBtn.classList.add("btn-primary");
                 // var localcheck = document.querySelector('input[name="fav_language"]:checked').id;
-                // doneList[currentQuestion] = checkRadio.id;
-                // console.log(doneList)
+                doneList[currentQuestion] = checkRadio.id;
+                console.log(doneList)
 
                 // try {
                 //     var savedAnswer = document.querySelector('input[name="fav_language"]:checked').value;
@@ -281,9 +281,16 @@
 
         function flagFunction() {
 
-            var clickedBtn = document.getElementById('b' + (currentQuestion.toString()));
-            clickedBtn.classList.remove("btn-outline-dark", "btn-outline-primary");
-            clickedBtn.classList.add("btn-warning");
+            var checkRadio = document.querySelector('input[name="fav_language"]:checked');
+
+            if (checkRadio != null) {
+
+                var clickedBtn = document.getElementById('b' + (currentQuestion.toString()));
+                clickedBtn.classList.remove("btn-outline-dark", "btn-outline-primary");
+                clickedBtn.classList.add("btn-warning");
+                doneList[currentQuestion] = checkRadio.id;
+
+            }
 
 
         }
